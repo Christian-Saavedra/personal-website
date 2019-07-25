@@ -40,14 +40,14 @@
     opacity: 0.9;
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #1b1b24;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: rgba(68, 68, 68, 0.9);
+    background: rgba(38, 38, 50, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -96,14 +96,14 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #262632;
   color: white;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/laptop1.jpg);
+    background: url(../img/laptop3.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -114,7 +114,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.6); }
+      background: rgba(38, 38, 50, 0.5); }
 
 h1,
 h2,
@@ -130,7 +130,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(42, 42, 56, 0.7); }
 
 a {
   text-decoration: none;
@@ -168,14 +168,23 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 4px solid;
+    -webkit-filter: grayscale(100%); }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .job {
-    background: #515151;
+    text-align: center;
+    background: #313140;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+    .about-info .job i {
+      margin: 20px;
+      color: white;
+      padding: 0.4rem; }
+      .about-info .job i:hover {
+        color: #eece1a;
+        transition: all 0.5s ease-out; }
   .about-info .job1 {
     grid-area: job1; }
   .about-info .job2 {
@@ -202,8 +211,8 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
+    background: #313140;
     font-size: 2rem;
-    border: 3px white solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
@@ -228,13 +237,13 @@ main {
   color: white; }
 
 .btn-light {
-  background: #aaaaaa;
+  background: #8383a1;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #101015;
   color: white;
   height: 60px; }
 
@@ -252,7 +261,7 @@ main {
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 2rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;

@@ -1,8 +1,10 @@
-$primary-color: #444;
+//$primary-color: #444;
+//$secondary-color: #eece1a;
+$primary-color: #262632;
 $secondary-color: #eece1a;
 $show-home-image: true;
-$home-image: url(../img/laptop1.jpg);
-$background-opacity: 0.6;
+$home-image: url(../img/laptop3.jpg);
+$background-opacity: 0.5; // era 0.6
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -19,6 +21,7 @@ $background-opacity: 0.6;
       background-attachment: fixed;
       background-size: cover;
 
+      // Background Overlay
       &:after {
         content: "";
         position: absolute;
