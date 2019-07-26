@@ -289,6 +289,12 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
+    font-size: 60px;
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  main#contact h1 {
+    font-size: 65px;
+    margin-top: 10vh; }
+  main#contact div {
+    font-size: 1rem; } }
